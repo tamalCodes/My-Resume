@@ -50,3 +50,45 @@ footer {
     margin-top: 80px;
     margin-left: 50px;
 }
+
+#pr-head {
+    display: inline-block;
+    width: 570px;
+    height: 450px;
+    position: relative;
+    bottom: 100px;
+    padding-bottom: 0;
+}
+
+#project_Cards {
+    margin-left: 190px;
+    position: relative;
+    bottom: 100px;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 80%;
+    /* 5px rounded corners */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+#p1 {
+    border-radius: 5px 5px 0 0;
+    height: 190px;
+    width: 100%;
+}
+
+#card2 {
+    width: 24%;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 50px;
+}
