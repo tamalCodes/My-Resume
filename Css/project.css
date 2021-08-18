@@ -1,0 +1,52 @@
+#Navbarrr {
+    padding-left: 30px;
+    padding-right: 50px;
+    /* background-color: #96BAFF; */
+}
+
+
+.navbar {
+    font-size: 1em;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+#pro {
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #222222; */
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 2.8rem;
+    margin-left: 25px;
+    position: relative;
+    top: 9px;
+}
+
+#activity {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.05);
+    text-transform: uppercase;
+    font-size: 5.6rem;
+    position: relative;
+    z-index: -1;
+    bottom: 75px;
+    font-weight: 700 !important;
+    padding-bottom: 0;
+}
+
+
+
+#heading {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 50px;
+}
