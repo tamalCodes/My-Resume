@@ -53,17 +53,17 @@ footer {
 
 #pr-head {
     display: inline-block;
-    width: 570px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
     padding-bottom: 0;
 }
 
 #project_Cards {
     margin-left: 190px;
-    position: relative;
-    bottom: 100px;
+    /* position: relative;
+    bottom: 100px; */
 }
 
 .card {
@@ -80,10 +80,11 @@ footer {
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
-#p1 {
-    border-radius: 5px 5px 0 0;
-    height: 190px;
-    width: 100%;
+#pr1 {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin-right: 40px;
 }
 
 #card2 {
