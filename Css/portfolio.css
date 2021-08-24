@@ -116,6 +116,14 @@ footer {
     display: inline-block;
 }
 
+.webhead {
+    margin-left: 50px;
+}
+
+.webicons {
+    margin-left: 50px;
+}
+
 #ui-headimg {
     width: 35px;
     height: 35px;
@@ -135,3 +143,95 @@ footer {
     font-weight: 550;
     font-size: 1.2rem;
 }
+
+
+/* ------------------------------------------------------------------ MEDIA MOBILES ---------------------------------------------------- */
+@media (max-width:425px) {
+    #hi-row {
+        position: relative;
+        bottom: 110px;
+        right: 20px;
+    }
+
+    #hi-1 {
+        font-size: 2rem;
+    }
+
+    #hi-2 {
+        font-size: 2.3rem;
+    }
+
+    #hi-3 {
+        font-size: 1.2rem;
+        width: 75%;
+    }
+
+    #my-img {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 80px;
+        top: 80px;
+    }
+
+    #social-1 {
+        position: relative;
+        top: 80px;
+        /* left: 75px; */
+        text-align: center;
+    }
+
+    .soc-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #whatdiv {
+        text-align: center;
+    }
+
+    #whatido {
+        padding-top: 60px;
+    }
+
+    #what {
+        /* font-family: 'Ubuntu', sans-serif; */
+        color: #222222;
+    }
+
+    #passion {
+        font-size: 5rem;
+        position: relative;
+        z-index: -1;
+        bottom: 70px;
+    }
+
+    #coding-img {
+        display: none;
+    }
+
+    #ui-img {
+        display: none;
+    }
+
+    .ui-logos {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    #ui-subhead {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #webdiv {
+        text-align: center;
+    }
+}
+
+
+/* ------------------------------------------------------------------ MEDIA TABLET ---------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ MEDIA OTHERS ---------------------------------------------------- */
