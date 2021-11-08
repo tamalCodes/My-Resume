@@ -75,6 +75,7 @@ footer {
     width: 250px;
     margin-right: 40px;
     transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 25px;
 }
 
 #prs:hover {
