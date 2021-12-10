@@ -14,17 +14,19 @@
   text-align: center;
 }
 
-.p1 {
+.parent_1_p1 {
   font-weight: 500;
   font-size: 2em;
+  font-family: "Readex Pro", sans-serif;
 }
 
-.p1 span {
+.parent_1_p1 span {
   color: blueviolet;
 }
 
-.p2 {
+.parent_1_p2 {
   font-size: 1.2rem;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .typ {
@@ -33,10 +35,29 @@
   font-weight: 500;
 }
 
-.p3 {
+.parent_1_p3 {
   font-size: 1rem;
+  font-family: "Readex Pro", sans-serif;
 }
 
+#parent_2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.parent_2_p1 {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.i1,
+.i2 {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  color: rgb(211, 120, 211);
+}
+
+/* --------------------------------------- */
 /* For Tabs */
 @media (max-width: 768px) and (min-width: 426px) {
   .img_dp {
@@ -48,9 +69,10 @@
   }
 }
 
+/* ------------------------------- */
 /* For Laptops */
 @media (max-width: 1024px) and (min-width: 769px) {
-  #parent {
+  #parent_1 {
     display: flex;
     text-align: center;
     flex: 1;

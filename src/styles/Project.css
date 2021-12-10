@@ -1,0 +1,52 @@
+#pro_parent_1 {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.pro_parent_1_header1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.pro_parent_1_header1 .i1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.prs {
+  border-radius: 20px;
+  width: 35vw;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  /* transition: box-shadow 0.3s ease-in-out; */
+}
+
+#pro_parent_2 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.i2 {
+  font-size: 1.5rem;
+}
+
+/* ----------- MQ -------------- */
+/* --------------------------------------- */
+/* For Tabs */
+@media (max-width: 768px) and (min-width: 426px) {
+  .prs {
+    width: 25vw;
+  }
+}
+
+/* ------------------------------- */
+/* For Laptops */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .prs {
+    width: 20vw;
+  }
+}
