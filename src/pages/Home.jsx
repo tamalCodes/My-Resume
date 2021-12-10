@@ -48,7 +48,7 @@ const Home = () => {
 
                 <Link to="/"><i class="fas fa-handshake i1"></i></Link>
 
-                <Link to="/projects"><i class="fas fa-laptop-code i2"></i></Link>
+                <Link to="/project"><i class="fas fa-laptop-code i2"></i></Link>
 
 
 
