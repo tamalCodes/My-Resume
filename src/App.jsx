@@ -1,7 +1,7 @@
 import React from "react";
-import Home from "./pages/Home";
-import Project from "./pages/Project";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import Project from "./pages/Project.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
@@ -13,8 +13,7 @@ const App = () => {
           <Route path='/projects' element={<Project />} />
 
         </Routes>
-        {/* <Home />
-        <Project /> */}
+
       </Router>
     </>
 
