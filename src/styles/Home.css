@@ -1,0 +1,76 @@
+.img_div {
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.img_dp {
+  border-radius: 50%;
+  width: 40vw;
+}
+
+.text_div {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.p1 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.p1 span {
+  color: blueviolet;
+}
+
+.p2 {
+  font-size: 1.2rem;
+}
+
+.typ {
+  color: coral;
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.p3 {
+  font-size: 1rem;
+}
+
+/* For Tabs */
+@media (max-width: 768px) and (min-width: 426px) {
+  .img_dp {
+    width: 30vw;
+  }
+
+  .p3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* For Laptops */
+@media (max-width: 1024px) and (min-width: 769px) {
+  #parent {
+    display: flex;
+    text-align: center;
+    flex: 1;
+  }
+
+  .text_div {
+    text-align: left;
+    width: 50vw;
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+  }
+
+  .img_dp {
+    width: 25vw;
+    position: relative;
+    left: 6rem;
+  }
+
+  .p3 {
+    font-size: 1.2rem;
+  }
+}
