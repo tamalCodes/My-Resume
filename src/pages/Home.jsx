@@ -46,7 +46,7 @@ const Home = () => {
                     Connect with me or take a look at my projects
                 </p>
 
-                <Link to="/"><i class="fas fa-handshake i1"></i></Link>
+                <Link to="/about"><i class="fas fa-handshake i1"></i></Link>
 
                 <Link to="/project"><i class="fas fa-laptop-code i2"></i></Link>
 

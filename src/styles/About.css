@@ -1,0 +1,38 @@
+.ab_img_div {
+  text-align: center;
+}
+
+.ab_img {
+  width: 40vw;
+  text-align: center;
+}
+
+.ab_main {
+  text-align: center;
+}
+
+.ab_head1 {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.ab_p1 {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.ab_p2 {
+  text-align: center;
+}
+
+.social {
+  width: 10vw;
+  padding-right: 1rem;
+}
+/* .social {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  color: rgb(192, 118, 192);
+  font-weight: 500;
+} */
