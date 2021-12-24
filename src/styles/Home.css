@@ -42,6 +42,8 @@
 
 .parent_1_p3_part2 {
   display: none;
+  font-size: 1rem;
+  font-family: "Readex Pro", sans-serif;
 }
 
 #parent_2 {
@@ -75,8 +77,8 @@
   margin-top: 30px;
 }
 
-/* --------------------------------------- */
-/* For Tabs */
+/* //* --------------------------------------- */
+/* //* For Tabs */
 @media (max-width: 768px) and (min-width: 426px) {
   .img_dp {
     width: 30vw;
@@ -96,8 +98,8 @@
   }
 }
 
-/* ------------------------------- */
-/* For Laptops */
+/* //*------------------------------- */
+/* //* For Laptops */
 @media (max-width: 1024px) and (min-width: 769px) {
   #parent_1 {
     display: flex;
@@ -130,6 +132,7 @@
 
   .parent_1_p3_part2 {
     display: contents;
+    font-size: 1rem;
   }
 
   #parent2 {
@@ -145,5 +148,116 @@
   }
   .code_img {
     width: 5vw;
+  }
+}
+
+/* //* ------------------------------- */
+/* //* For Laptops  -  2K */
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+  #parent_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 80px;
+  }
+  .img_div {
+    width: 50vw;
+  }
+
+  .text_div {
+    width: 50vw;
+  }
+  .img_dp {
+    width: 25vw;
+  }
+
+  .parent_1_p1 {
+    font-size: 2.5rem;
+  }
+
+  .parent_1_p2 {
+    font-size: 1.5rem;
+  }
+
+  .parent_1_p3 {
+    font-size: 1.2rem;
+  }
+
+  .parent_1_p3_part2 {
+    display: contents;
+    font-size: 1.2rem;
+  }
+
+  #parent_2 {
+    margin-top: 30px;
+  }
+
+  .parent_2_p1 {
+    font-size: 1.4rem;
+  }
+
+  .about_img {
+    width: 4vw;
+  }
+  .code_img {
+    width: 4vw;
+  }
+}
+
+/* //* ------------------------------- */
+/* //* For Laptops  -  4K */
+
+@media (max-width: 2560px) and (min-width: 1441px) {
+  #parent_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 80px;
+  }
+  .img_div {
+    width: 50vw;
+  }
+
+  .text_div {
+    width: 50vw;
+  }
+  .img_dp {
+    width: 25vw;
+  }
+
+  .parent_1_p1 {
+    font-size: 2.5rem;
+  }
+
+  .parent_1_p2 {
+    font-size: 1.5rem;
+  }
+
+  .parent_1_p3 {
+    font-size: 1.2rem;
+  }
+
+  .parent_1_p3_part2 {
+    display: contents;
+    font-size: 1.2rem;
+  }
+
+  #parent2 {
+    margin-top: 20rem;
+  }
+
+  .parent_2_p1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .about_img {
+    width: 4vw;
+  }
+  .code_img {
+    width: 4vw;
   }
 }

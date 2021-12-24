@@ -20,7 +20,7 @@ const About = () => {
                     <h3 className="ab_head1">About Me</h3>
 
                     <p className="ab_p1">Hello I'm tamal , i have done my schooling from Carmel School , on science with 94% in boards.
-                        <br />Currently I am pursuing Bachelors in CSE from UEM Kolkata. <br /> On my way to a Fullstack Web dev and also contributing to Open source , hackathons to improve myself.
+                        <br />Currently I am pursuing Bachelors in CSE from UEM Kolkata. <br /> On my way to a Fullstack Web dev and also contributing to Open source , hackathons to improve myself. Feel free to reach me out on my socials , also i am looking forward to collab on Fullstack projects
                     </p>
 
                     <p className="ab_p2">

@@ -36,8 +36,8 @@ const Home = () => {
 
                     <p className="parent_1_p3">
                         A 20 year old passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
-                        <p className='parent_1_p3_part2'> You can talk to me about MERN stack , web development, open source and DSA. I'm also intrested in Fullstack roles and making projects</p>
                     </p>
+                    <p className='parent_1_p3_part2'> You can talk to me about MERN stack , web development, open source and DSA. I'm also intrested in Fullstack roles and making projects</p>
                 </div>
             </div>
 
