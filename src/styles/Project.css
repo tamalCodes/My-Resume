@@ -41,6 +41,11 @@
   .prs {
     width: 25vw;
   }
+
+  .pro_home_img {
+    width: 5vw;
+    margin-bottom: 2rem;
+  }
 }
 
 /* ------------------------------- */
@@ -48,6 +53,10 @@
 @media (max-width: 1024px) and (min-width: 769px) {
   .prs {
     width: 20vw;
+  }
+  .pro_home_img {
+    width: 5vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -62,5 +71,28 @@
   }
   .prs {
     width: 15vw;
+  }
+
+  .pro_home_img {
+    width: 5vw;
+  }
+}
+
+/* ------------------------------- */
+/* //* For Laptops - 4K */
+@media (max-width: 2560px) and (min-width: 1441px) {
+  #pro_parent_1 {
+    margin-top: 5rem;
+  }
+  .pro_parent_1_header1 {
+    margin-bottom: 3rem;
+  }
+  .prs {
+    width: 13vw;
+  }
+
+  .pro_home_img {
+    margin-top: 3rem;
+    width: 4vw;
   }
 }

@@ -22,7 +22,7 @@ const Project = () => {
             </div>
 
             <div className="container-fluid" id='pro_parent_2'>
-                <Link to="/"> <img className='home_img' src="https://i.ibb.co/sjbKTr0/house.png" alt="home" /></Link>
+                <Link to="/"> <img className='pro_home_img' src="https://i.ibb.co/sjbKTr0/house.png" alt="home" /></Link>
             </div>
         </>
     )
