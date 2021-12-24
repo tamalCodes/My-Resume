@@ -36,6 +36,7 @@ const Home = () => {
 
                     <p className="parent_1_p3">
                         A 20 year old passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
+                        <p className='parent_1_p3_part2'> You can talk to me about MERN stack , web development, open source and DSA. I'm also intrested in Fullstack roles and making projects</p>
                     </p>
                 </div>
             </div>
@@ -46,9 +47,9 @@ const Home = () => {
                     Connect with me or take a look at my projects
                 </p>
 
-                <Link to="/about"><i class="fas fa-handshake i1"></i></Link>
+                <Link to="/about" className='L1'><img className='about_img' src="https://i.ibb.co/nC0ycTR/man.png" alt='code' /></Link>
+                <Link to="/project" className='L2'><img className='code_img' src="https://i.ibb.co/bd9nTj1/coding.png" alt='code' /></Link>
 
-                <Link to="/project"><i class="fas fa-laptop-code i2"></i></Link>
 
 
 

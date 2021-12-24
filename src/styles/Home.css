@@ -40,6 +40,10 @@
   font-family: "Readex Pro", sans-serif;
 }
 
+.parent_1_p3_part2 {
+  display: none;
+}
+
 #parent_2 {
   text-align: center;
   padding-top: 2rem;
@@ -57,6 +61,20 @@
   color: rgb(211, 120, 211);
 }
 
+.about_img {
+  width: 10vw;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.code_img {
+  width: 10vw;
+
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
 /* --------------------------------------- */
 /* For Tabs */
 @media (max-width: 768px) and (min-width: 426px) {
@@ -64,8 +82,17 @@
     width: 30vw;
   }
 
+  .parent_1_p3_part2 {
+    display: contents;
+  }
+
   .p3 {
     font-size: 1.2rem;
+  }
+
+  .code_img,
+  .about_img {
+    width: 6vw;
   }
 }
 
@@ -74,25 +101,49 @@
 @media (max-width: 1024px) and (min-width: 769px) {
   #parent_1 {
     display: flex;
-    text-align: center;
-    flex: 1;
-  }
-
-  .text_div {
-    text-align: left;
-    width: 50vw;
-    position: relative;
-    left: 10rem;
-    top: 2rem;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
   }
 
   .img_dp {
-    width: 25vw;
-    position: relative;
-    left: 6rem;
+    width: 30vw;
+    margin-left: 6vw;
   }
 
-  .p3 {
+  .text_div {
+    width: 55vw;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .parent_1_p1 {
+    font-size: 2.5rem;
+  }
+
+  .parent_1_p2 {
+    font-size: 1.5rem;
+  }
+
+  .parent_1_p3 {
     font-size: 1.2rem;
+  }
+
+  .parent_1_p3_part2 {
+    display: contents;
+  }
+
+  #parent2 {
+    margin-top: 20rem;
+  }
+
+  .parent_2_p1 {
+    font-size: 1.4rem;
+  }
+
+  .about_img {
+    width: 5vw;
+  }
+  .code_img {
+    width: 5vw;
   }
 }

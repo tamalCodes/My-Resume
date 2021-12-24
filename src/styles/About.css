@@ -36,3 +36,63 @@
   color: rgb(192, 118, 192);
   font-weight: 500;
 } */
+
+.home_img {
+  width: 7vw;
+  margin-bottom: 50px;
+}
+
+/* --------------------------------------- */
+/* For Tabs */
+@media (max-width: 768px) and (min-width: 426px) {
+  .ab_main {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .social {
+    width: 6vw;
+  }
+
+  .home_img {
+    width: 4vw;
+  }
+}
+
+/* For Laptops - 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+  #ab_parent1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  .ab_img_div {
+    width: 30vw;
+  }
+
+  .ab_img {
+    width: 35vw;
+  }
+
+  .ab_main {
+    width: 55vw;
+    margin-top: 20px;
+  }
+
+  .ab_head1 {
+    margin-bottom: 20px;
+  }
+
+  .ab_p1 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .social {
+    width: 6vw;
+  }
+
+  .home_img {
+    width: 4vw;
+  }
+}
