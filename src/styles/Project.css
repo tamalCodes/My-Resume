@@ -34,6 +34,10 @@
   font-size: 1.5rem;
 }
 
+.pro_home_img {
+  width: 10vw;
+  margin-bottom: 2rem;
+}
 /* ----------- MQ -------------- */
 /* --------------------------------------- */
 /* //* For Tabs */
