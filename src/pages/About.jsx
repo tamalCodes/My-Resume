@@ -25,10 +25,10 @@ const About = () => {
 
                     <p className="ab_p2">
 
-                        <img src="https://i.ibb.co/JqCWHgr/git.png" alt="" className='social' />
-                        <img src="https://i.ibb.co/YDJJ48m/ins-1.png" alt="" className='social' />
-                        <img src="https://i.ibb.co/rFwscZj/t.png" alt="" className='social' />
-                        <img src="https://i.ibb.co/3BGR5Td/li.png" alt="" className='social' />
+                        <a href="https://github.com/IAmTamal" style={{ textDecoration: "none" }}> <img src="https://i.ibb.co/JqCWHgr/git.png" alt="" className='social' /> </a>
+                        <a href="https://www.instagram.com/tamal_pvt/" style={{ textDecoration: "none" }}> <img src="https://i.ibb.co/YDJJ48m/ins-1.png" alt="" className='social' /> </a>
+                        <a href="https://twitter.com/mrTamall" style={{ textDecoration: "none" }}><img src="https://i.ibb.co/rFwscZj/t.png" alt="" className='social' />  </a>
+                        <a href="https://www.linkedin.com/in/say-hello-to-tamal/" style={{ textDecoration: "none" }}>  <img src="https://i.ibb.co/3BGR5Td/li.png" alt="" className='social' /></a>
                     </p>
                 </div>
             </div>
